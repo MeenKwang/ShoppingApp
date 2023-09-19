@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shop Management</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/users" *ngIf="haveRole('Admin')" >Users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/categories" *ngIf="haveRole('Admin', 'Editor')" >Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/brands" *ngIf="haveRole('Admin', 'Editor')" >Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/products" *ngIf="haveRole('Admin', 'Salesperson', 'Editor', 'Shipper')" >Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/customers" *ngIf="haveRole('Admin', 'Salesperson')" >Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/shipping" *ngIf="haveRole('Admin', 'Shipper')" >Shipping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/orders" *ngIf="haveRole('Admin', 'Salesperson', 'Shipper')" >Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/users" *ngIf="haveRole('Admin', 'Salesperson')" >Sales Report</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/articles" *ngIf="haveRole('Admin', 'Editor')" >Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/menus" >Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/settings" *ngIf="haveRole('Admin')" >Settings</a>
+          </li>
+        </ul>
+        <div class="navbar-brand dropdown d-flex" style="float: right">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Welcome, {{username}}
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" (click)="logout()">Logout</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </nav>

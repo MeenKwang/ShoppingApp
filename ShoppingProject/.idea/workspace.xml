@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bda92261-d89d-489c-8d20-98e6abfc2124" name="Changes" comment="Commit second time" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Lgt7ZgIS3KzDWEvrm518yYGrq8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/SpringBoot/ShoppingApp/ShoppingProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f99db99247201f748f90b0aa58e615e5&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Code\\SpringBoot\\ShoppingProject\\ShoppingWebParent\\ShopManagementWeb\\src\\main\\resources\\shopping-manage-frontend\\node_modules\\typescript\\lib&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shopping.admin.dto" />
+      <recent name="com.shopping.admin.security" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\SpringBoot\ShoppingProject\ShoppingWebParent\ShopManagementWeb\src\main\java\com\shopping\admin\exception" />
+      <recent name="D:\Code\SpringBoot\ShoppingProject\ShoppingCommon\src\main\java\com\shopping\common\exception" />
+      <recent name="D:\Code\SpringBoot\ShoppingProject\ShoppingWebParent\ShopManagementWeb" />
+      <recent name="D:\Code\SpringBoot\ShoppingProject\ShoppingCommon\src\main\java\com\shopping\common\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shopping.admin.security" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopManagementWebApplication">
+    <configuration name="QuartzEmailRunner" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.job.JobApplication" />
+      <module name="Job" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrandRepositoryTests.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopManagementWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.Brand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping.Brand" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.Brand.BrandRepositoryTests" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.changeFirstNameOfProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopManagementWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping.Product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.Product.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="changeFirstNameOfProductImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.changeNameOfAllProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopManagementWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping.Product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.Product.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="changeNameOfAllProductImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.testGetPageProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopManagementWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping.Product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.Product.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="testGetPageProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.testGetPageProductIfCategoryIdEqual0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopManagementWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping.Product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.Product.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="testGetPageProductIfCategoryIdEqual0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular Application (shopping-manage-frontend)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.job.JobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SaleWeb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping.SaleWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopManagementWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="ShopManagementWeb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping.ShopManagementWebApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (shopping-manage-frontend)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.QuartzEmailRunner" />
+      <item itemvalue="JavaScript Debug.Angular Application (shopping-manage-frontend)" />
+      <item itemvalue="JUnit.ProductRepositoryTest.changeFirstNameOfProductImage" />
+      <item itemvalue="JUnit.ProductRepositoryTest.changeNameOfAllProductImage" />
+      <item itemvalue="JUnit.BrandRepositoryTests.testFindAll" />
+      <item itemvalue="JUnit.ProductRepositoryTest.testGetPageProduct" />
+      <item itemvalue="JUnit.ProductRepositoryTest.testGetPageProductIfCategoryIdEqual0" />
+      <item itemvalue="npm.Angular CLI Server (shopping-manage-frontend)" />
+      <item itemvalue="Spring Boot.JobApplication" />
+      <item itemvalue="Spring Boot.SaleWebApplication" />
+      <item itemvalue="Spring Boot.ShopManagementWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BrandRepositoryTests.testFindAll" />
+        <item itemvalue="JUnit.ProductRepositoryTest.changeNameOfAllProductImage" />
+        <item itemvalue="JUnit.ProductRepositoryTest.changeFirstNameOfProductImage" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testGetPageProductIfCategoryIdEqual0" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testGetPageProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bda92261-d89d-489c-8d20-98e6abfc2124" name="Changes" comment="" />
+      <created>1676304388616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676304388616</updated>
+      <workItem from="1676304390265" duration="511000" />
+      <workItem from="1676304977310" duration="7390000" />
+      <workItem from="1677169002726" duration="6672000" />
+      <workItem from="1677253413695" duration="811000" />
+      <workItem from="1677255602030" duration="3041000" />
+      <workItem from="1677262574275" duration="72094000" />
+      <workItem from="1677869389128" duration="39000" />
+      <workItem from="1677869456691" duration="52000" />
+      <workItem from="1677869684433" duration="13949000" />
+      <workItem from="1678067623843" duration="4518000" />
+      <workItem from="1678194957463" duration="6821000" />
+      <workItem from="1678336964923" duration="17783000" />
+      <workItem from="1678414678046" duration="2948000" />
+      <workItem from="1678435855228" duration="607000" />
+      <workItem from="1678668112335" duration="2783000" />
+      <workItem from="1678689648251" duration="5708000" />
+      <workItem from="1678706626228" duration="4058000" />
+      <workItem from="1678723652622" duration="2523000" />
+      <workItem from="1678771848246" duration="2092000" />
+      <workItem from="1678798154917" duration="4366000" />
+      <workItem from="1678859239280" duration="18963000" />
+      <workItem from="1678991816218" duration="4608000" />
+      <workItem from="1679028026033" duration="3271000" />
+      <workItem from="1679062619729" duration="2618000" />
+      <workItem from="1679158991311" duration="17679000" />
+      <workItem from="1679308571132" duration="3318000" />
+      <workItem from="1679331226704" duration="5426000" />
+      <workItem from="1679472523495" duration="13077000" />
+      <workItem from="1679544942448" duration="7121000" />
+      <workItem from="1679649706061" duration="2245000" />
+      <workItem from="1679733776849" duration="64000" />
+      <workItem from="1679741766642" duration="7620000" />
+      <workItem from="1679833403710" duration="8096000" />
+      <workItem from="1679890751230" duration="5954000" />
+      <workItem from="1679990105987" duration="9312000" />
+      <workItem from="1680018881864" duration="1882000" />
+      <workItem from="1680022329691" duration="6486000" />
+      <workItem from="1680057955035" duration="8064000" />
+      <workItem from="1680100567276" duration="3291000" />
+      <workItem from="1680193825482" duration="2725000" />
+      <workItem from="1680233433615" duration="7527000" />
+      <workItem from="1680347100660" duration="1550000" />
+      <workItem from="1680428916885" duration="9610000" />
+      <workItem from="1680492947193" duration="8157000" />
+      <workItem from="1680582185851" duration="13715000" />
+      <workItem from="1680636812900" duration="1258000" />
+      <workItem from="1680865281803" duration="1999000" />
+      <workItem from="1680941661615" duration="5013000" />
+      <workItem from="1681190671700" duration="3806000" />
+      <workItem from="1681236444153" duration="2457000" />
+      <workItem from="1681299629744" duration="1917000" />
+      <workItem from="1681308967176" duration="2680000" />
+      <workItem from="1681449582950" duration="37521000" />
+      <workItem from="1681879395408" duration="23563000" />
+      <workItem from="1682076515301" duration="3111000" />
+      <workItem from="1682226812329" duration="7729000" />
+      <workItem from="1682246946661" duration="11097000" />
+      <workItem from="1682263910393" duration="1128000" />
+      <workItem from="1682265634749" duration="2414000" />
+      <workItem from="1682309852300" duration="2456000" />
+      <workItem from="1682421918295" duration="9930000" />
+      <workItem from="1682486081149" duration="18195000" />
+      <workItem from="1682946854724" duration="2648000" />
+      <workItem from="1684290823793" duration="1100000" />
+      <workItem from="1684731410016" duration="46000" />
+      <workItem from="1684807562848" duration="3884000" />
+      <workItem from="1684903475836" duration="144000" />
+      <workItem from="1684979114928" duration="1083000" />
+      <workItem from="1685522628297" duration="682000" />
+      <workItem from="1685524603280" duration="2346000" />
+      <workItem from="1685607785819" duration="1762000" />
+      <workItem from="1685611650851" duration="74000" />
+      <workItem from="1685612000308" duration="36000" />
+      <workItem from="1685688750513" duration="1055000" />
+      <workItem from="1685929661403" duration="662000" />
+      <workItem from="1685960165144" duration="303000" />
+      <workItem from="1686193545431" duration="1012000" />
+      <workItem from="1686211769460" duration="1087000" />
+      <workItem from="1686277059319" duration="6032000" />
+      <workItem from="1686414703237" duration="1140000" />
+      <workItem from="1686545363300" duration="940000" />
+      <workItem from="1686555662245" duration="979000" />
+      <workItem from="1686558487515" duration="424000" />
+      <workItem from="1688007190768" duration="424000" />
+      <workItem from="1688029562217" duration="2000" />
+      <workItem from="1692501944483" duration="3731000" />
+      <workItem from="1692537806569" duration="1213000" />
+      <workItem from="1692544396120" duration="663000" />
+      <workItem from="1692548798669" duration="527000" />
+      <workItem from="1692617319905" duration="1708000" />
+      <workItem from="1694779718916" duration="641000" />
+      <workItem from="1694832723817" duration="23036000" />
+      <workItem from="1694995610080" duration="869000" />
+      <workItem from="1695038316686" duration="13443000" />
+      <workItem from="1695124556165" duration="720000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit first time">
+      <created>1680010589158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680010589158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit first time">
+      <created>1680010603856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680010603856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit second time">
+      <created>1680010972312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680010972312</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:software.amazon.awssdk:sdk-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ShoopingCommon" />
+      <path value="$PROJECT_DIR$/ShopManagementWeb" />
+    </ignored-roots>
+    <MESSAGE value="Commit first time" />
+    <MESSAGE value="Commit second time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit second time" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

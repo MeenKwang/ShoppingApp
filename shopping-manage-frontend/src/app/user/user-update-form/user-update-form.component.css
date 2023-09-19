@@ -1,0 +1,11 @@
+.form-center {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    width: 30%;
+}
+
+.image-preview {
+    height: auto;
+    width: 100px;
+}

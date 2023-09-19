@@ -1,0 +1,54 @@
+<div class="form-center">
+    <h3>Create New Brand</h3>
+    <form [formGroup]="brandForm" (ngSubmit)="submit()"> 
+        <div class="mb-3">
+            <input type="text" formControlName="name" id="name" placeholder="Name" class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f['name'].errors }" required  />
+            <div *ngIf="submitted && f['name'].errors" class="invalid-feedback">
+                <div *ngIf="f['name'].errors?.['required']">
+                  Name is required.
+                </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <ng-select
+                [items]="categoriesSelect"
+                bindLabel="name"
+                bindValue="id"
+                placeholder="Select Categories"
+                appendTo="body"
+                [multiple]="true"
+                formControlName="categories"
+                [ngClass]="{ 'is-invalid' : submitted && f['categories'].errors }"
+                required>
+            </ng-select>
+            <div
+              *ngIf="submitted && f['categories'].errors"
+              class="invalid-feedback">
+              <div *ngIf="f['categories'].errors['required']">
+                Categories is required
+              </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <!-- Select File -->
+            <input type="file" accept="image/*" (change)="showPreview($event)" class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f['logo'].errors }" required />
+    
+            <div
+              *ngIf="submitted && f['logo'].errors"
+              class="invalid-feedback">
+              <div *ngIf="f['logo'].errors['required']">
+                Logo is required
+              </div>
+            </div>
+            <!-- Image Preview -->
+            <div class="imagePreview" *ngIf="imageURL && imageURL !== ''">
+                <img [src]="imageURL" alt="Image Preview">
+            </div>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+    
+    

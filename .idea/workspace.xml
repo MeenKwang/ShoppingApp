@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93d46906-5d9d-404e-b0d6-025862d04b06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/auth/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/auth/auth.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-create-form/brand-create-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-create-form/brand-create-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-create-form/brand-create-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-create-form/brand-create-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-list/brand-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-list/brand-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-list/brand-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-list/brand-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-update-form/brand-update-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-update-form/brand-update-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-update-form/brand-update-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand-update-form/brand-update-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/brand/brand.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-create-form/category-create-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-create-form/category-create-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-create-form/category-create-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-create-form/category-create-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-list/category-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-list/category-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-list/category-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-list/category-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-update-form/category-update-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-update-form/category-update-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-update-form/category-update-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category-update-form/category-update-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/category/category.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/forbidden/forbidden.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/forbidden/forbidden.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/forbidden/forbidden.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/forbidden/forbidden.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/homepage/homepage.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/homepage/homepage.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/homepage/homepage.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/homepage/homepage.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/confirm-modal/confirm-modal.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/confirm-modal/confirm-modal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/confirm-modal/confirm-modal.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/confirm-modal/confirm-modal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/notify-modal/notify-modal.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/notify-modal/notify-modal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/notify-modal/notify-modal.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/modal/notify-modal/notify-modal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/auth-request.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/brand-form.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/brand-select.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/brand.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/category-form-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/category-select.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/category.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/product-detail.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/product-image.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/product.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/role.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/user-form.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/model/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/page-not-found/page-not-found.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/page-not-found/page-not-found.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/page-not-found/page-not-found.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/page-not-found/page-not-found.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-form/product-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-form/product-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-form/product-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-form/product-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-list/product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-list/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-list/product-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product-list/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/product/product.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/auth/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/brand/brand.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/brand/brand.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/category/category.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/category/category.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/product/product.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/product/product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/role/role.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/service/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/shared/unique-email-validator.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/shared/validation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-form/user-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-form/user-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-form/user-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-form/user-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-list/user-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-list/user-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-list/user-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-list/user-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-update-form/user-update-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-update-form/user-update-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-update-form/user-update-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user-update-form/user-update-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/app/user/user.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingProject/ShoppingWebParent/ShopManagementWeb/src/main/resources/shopping-manage-frontend/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ShoppingProject" />
+  </component>
+  <component name="ProjectId" id="2UEPdP0NJSbishskW7q4f2wSL9F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Code/SpringBoot/ShoppingApp/ShoppingProject"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93d46906-5d9d-404e-b0d6-025862d04b06" name="Changes" comment="" />
+      <created>1692501852951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692501852951</updated>
+      <workItem from="1692501854268" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

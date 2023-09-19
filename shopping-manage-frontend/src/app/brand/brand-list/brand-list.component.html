@@ -1,0 +1,96 @@
+<div class="container-fluid">
+    <div class="head">
+        <h2>Manage Brands</h2>
+        <div class="pt-2">
+            <a (click)="createBrand()"><fa-icon [icon]="faPlusSquare" size="2x" class="mx-2 link-primary"></fa-icon></a>
+            <a ><fa-icon [icon]="faFileCsv" size="2x" class="mx-2 link-primary"></fa-icon></a>
+            <a ><fa-icon [icon]="faFileExcel" size="2x" class="mx-2 link-primary"></fa-icon></a>
+            <a ><fa-icon [icon]="faFilePdf" size="2x" class="mx-2 link-primary"></fa-icon></a>
+        </div>
+        <div>
+            <form (ngSubmit)="getPageList()">
+                <table class="table borderless">
+                    <thead>
+                        <tr class="d-flex">
+                            <th class="col-3">Search By Name</th>
+                            <th class="col-1"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="d-flex">
+                            <td class="col-3">
+                                <input type="text" class="form-control" id="inputSearchName" placeholder="Search By Name" 
+                                    [(ngModel)]="this.nameSearch" name="nameSearch">
+                            </td>
+                            <td class="col-1">
+                                <button type="submit" class="btn btn-primary mb-2">Search</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="content mt-3">
+        <table id="productSizes" class="table table-bordered">
+            <thead>
+                <tr class="d-flex">
+                    <th class="col-1" (click)="sortPage('id')" style="cursor: pointer;">
+                        Id&nbsp;
+                        <span *ngIf="this.sortDir === 'asc' && this.isTargetSortField('id')">
+                            <fa-icon [icon]="this.faArrowUp"></fa-icon>
+                        </span>
+                        <span *ngIf="this.sortDir === 'desc' && this.isTargetSortField('id')">
+                            <fa-icon [icon]="this.faArrowDown"></fa-icon>
+                        </span>
+                    </th>
+                    <th class="col-2">Images</th>
+                    <th class="col-3" (click)="sortPage('name')" style="cursor: pointer;">
+                        Name&nbsp;
+                        <span *ngIf="this.sortDir === 'asc' && this.isTargetSortField('name')">
+                            <fa-icon [icon]="this.faArrowUp"></fa-icon>
+                        </span>
+                        <span *ngIf="this.sortDir === 'desc' && this.isTargetSortField('name')">
+                            <fa-icon [icon]="this.faArrowDown"></fa-icon>
+                        </span>
+                    </th>
+                    <th class="col-4">Categories</th>
+                    <th class="col-2">Actions</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let brand of brandsList">
+                <tr class="d-flex">
+                    <td class="col-1">{{brand.id}}</td>
+                    <td class="col-2"><img class="image-scale" src="brand-logos/{{brand.id}}/{{brand.logo}}" alt="Brand image" /></td>
+                    <td class="col-3">{{brand.name}}</td>
+                    <th class="col-4">
+                        <ng-container *ngFor="let category of brand.categories">
+                            <span class="badge bg-primary m-1">{{category.name}}</span>
+                        </ng-container>
+                    </th>
+                    <td class="col-2">
+                        <a (click)="edit(brand.id)"><fa-icon [icon]="faEdit" size="2x" class="mx-2 link-primary"></fa-icon></a>
+                        <a (click)="delete(brand.id)"><fa-icon [icon]="faTrash" size="2x" class="mx-2 link-danger"></fa-icon></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="d-flex justify-content-between p-2">
+        <ngb-pagination
+            [collectionSize]="totalElements"
+            [(page)]="pageNum"
+            [pageSize]="pageSize"
+            (pageChange)="getPageList()"
+        >
+        </ngb-pagination>
+    
+        <select class="form-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="getPageList()">
+            <option [ngValue]="5">5 items per page</option>
+            <option [ngValue]="10">10 items per page</option>
+            <option [ngValue]="15">15 items per page</option>
+            <option [ngValue]="20">20 items per page</option>
+        </select>
+    </div>
+</div>
