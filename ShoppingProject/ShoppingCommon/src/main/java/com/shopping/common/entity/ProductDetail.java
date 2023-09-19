@@ -18,8 +18,7 @@ public class ProductDetail implements Serializable {
 	@Column(nullable = false, length = 255)
 	private String value;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JsonIgnore
+	@ManyToOne
 	@JoinColumn(name = "product_id")
 	private Product product;
 

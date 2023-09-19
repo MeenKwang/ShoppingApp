@@ -52,7 +52,7 @@ public class ProductRestController {
         return ResponseEntity.ok(productListDtoPage);
     }
     @PostMapping("products/save")
-    public ResponseEntity<Product> save(@RequestParam("productForm") String productForm,
+    public ResponseEntity<ProductFormDto> save(@RequestParam("productForm") String productForm,
                                                @RequestParam(name = "mainImageFile", required = false) MultipartFile mainImageFile,
                                                @RequestParam(name = "extraImages", required = false) MultipartFile[] extraImages) throws JsonProcessingException {
         try {
@@ -60,15 +60,16 @@ public class ProductRestController {
             Product product = productFormMapper.productFormDtoToProduct(productFormDto);
 
             Product savedProduct = productService.save(product);
-//            // Save mainImage
-//            ProductSaveHelper.saveMainImageFile(mainImageFile, savedProduct);
-//            // Delete extraImages that does not exist in new extraImagesList
-//            ProductSaveHelper.deleteExtraImagesWereRemovedOnForm(savedProduct);
-//            // Save extra images
-//            if(extraImages != null) {
-//                ProductSaveHelper.saveExtraImages(extraImages, savedProduct.getId());
-//            }
-            return ResponseEntity.ok(savedProduct);
+            // Save mainImage
+            ProductSaveHelper.saveMainImageFile(mainImageFile, savedProduct);
+            // Delete extraImages that does not exist in new extraImagesList
+            ProductSaveHelper.deleteExtraImagesWereRemovedOnForm(savedProduct);
+            // Save extra images
+            if(extraImages != null) {
+                ProductSaveHelper.saveExtraImages(extraImages, savedProduct.getId());
+            }
+            ProductFormDto savedProductDto = productFormMapper.productToProductFormDto(savedProduct);
+            return ResponseEntity.ok(savedProductDto);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

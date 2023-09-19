@@ -18,8 +18,7 @@ public class ProductImage implements Serializable {
 	@Column(name = "order_number")
 	private int order;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JsonIgnore
+	@ManyToOne
 	@JoinColumn(name = "product_id")
 	private Product product;
 

@@ -52,7 +52,6 @@ public class Product implements Serializable {
 	private String mainImage;
 	
 	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-	@JsonIgnore
 	@JoinColumn(name = "product_id")
 	@OrderBy("order ASC")
 	private Set<ProductImage> images = new HashSet<>();
@@ -66,7 +65,6 @@ public class Product implements Serializable {
 	private Brand brand;
 
 	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-	@JsonIgnore
 	@JoinColumn(name = "product_id")
 	private List<ProductDetail> details = new ArrayList<>();
 	
@@ -260,8 +258,6 @@ public class Product implements Serializable {
 				", alias='" + alias + '\'' +
 				", shortDescription='" + shortDescription + '\'' +
 				", fullDescription='" + fullDescription + '\'' +
-				", createdTime=" + createdTime +
-				", updatedTime=" + updatedTime +
 				", enabled=" + enabled +
 				", inStock=" + inStock +
 				", cost=" + cost +

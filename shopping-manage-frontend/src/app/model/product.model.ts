@@ -23,6 +23,8 @@ export interface IProduct {
     mainImage?: string;
     extraImages?: Array<IProductImage>;
     productDetails?: Array<IProductDetail>;
+    createdTime?: Date;
+    updatedTime?: Date;
 }
 
 export class Product implements IProduct {
@@ -45,6 +47,8 @@ export class Product implements IProduct {
         public weight?: number,
         public mainImage?: string,
         public extraImages?: Array<ProductImage>,
-        public productDetails?: Array<ProductDetail>
+        public productDetails?: Array<ProductDetail>,
+        public createdTime?: Date,
+        public updatedTime?: Date
     ) {}
 }

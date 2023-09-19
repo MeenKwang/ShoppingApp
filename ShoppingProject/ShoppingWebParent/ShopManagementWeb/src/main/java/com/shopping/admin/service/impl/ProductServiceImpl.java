@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.NoSuchElementException;
 
 @Service
-@Transactional
+// @Transactional
 public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository productRepository;

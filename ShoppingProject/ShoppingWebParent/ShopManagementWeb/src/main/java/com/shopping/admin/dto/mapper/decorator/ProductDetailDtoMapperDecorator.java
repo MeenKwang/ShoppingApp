@@ -16,13 +16,13 @@ public abstract class ProductDetailDtoMapperDecorator implements ProductDetailDt
     @Override
     public ProductDetail productDetailDtoToProductDetail(ProductDetailDto productDetailDto) {
         ProductDetail productDetail = productDetailDtoMapper.productDetailDtoToProductDetail(productDetailDto);
-//        Product product = new Product();
-//        if(productDetailDto.getProductId() != null) {
-//            product.setId(productDetailDto.getProductId());
-//            productDetail.setProduct(product);
-//        } else {
-//            productDetail.setProduct(null);
-//        }
+        Product product = new Product();
+        if(productDetailDto.getProductId() != null) {
+            product.setId(productDetailDto.getProductId());
+            productDetail.setProduct(product);
+        } else {
+            productDetail.setProduct(null);
+        }
         return productDetail;
     }
 }

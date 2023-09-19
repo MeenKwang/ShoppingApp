@@ -5,6 +5,7 @@ import com.shopping.common.entity.ProductImage;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
@@ -27,6 +28,8 @@ public class ProductFormDto {
     private float height;
     private float weight;
     private String mainImage;
+    private Date createdTime;
+    private Date updatedTime;
     private BrandSelectDto brand;
     private CategorySelect category;
     private Set<ProductExtraImageDto> extraImages;
@@ -182,6 +185,22 @@ public class ProductFormDto {
 
     public void setProductDetails(List<ProductDetailDto> productDetails) {
         this.productDetails = productDetails;
+    }
+
+    public Date getCreatedTime() {
+        return createdTime;
+    }
+
+    public void setCreatedTime(Date createdTime) {
+        this.createdTime = createdTime;
+    }
+
+    public Date getUpdatedTime() {
+        return updatedTime;
+    }
+
+    public void setUpdatedTime(Date updatedTime) {
+        this.updatedTime = updatedTime;
     }
 
     @Override

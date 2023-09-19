@@ -348,7 +348,8 @@
       <workItem from="1694832723817" duration="23036000" />
       <workItem from="1694995610080" duration="869000" />
       <workItem from="1695038316686" duration="13443000" />
-      <workItem from="1695124556165" duration="720000" />
+      <workItem from="1695124556165" duration="1506000" />
+      <workItem from="1695128439042" duration="6435000" />
     </task>
     <task id="LOCAL-00001" summary="Commit first time">
       <created>1680010589158</created>
@@ -412,23 +413,22 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/controller/ProductRestController.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/ShoppingWebParent/ShopManagementWeb/src/main/java/com/shopping/admin/service/impl/ProductServiceImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="product.details.get(0).product" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

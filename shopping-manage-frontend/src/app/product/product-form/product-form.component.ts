@@ -68,7 +68,9 @@ export class ProductFormComponent implements OnInit {
       weight : new FormControl(0.0),
       mainImageFile : new FormControl(null),
       extraImages : this.fb.array([]),
-      productDetails : this.fb.array([])
+      productDetails : this.fb.array([]),
+      createdTime : new FormControl(null),
+      updatedTime : new FormControl(null)
     });
 
 
@@ -98,6 +100,7 @@ export class ProductFormComponent implements OnInit {
         this.productService.getProductById(id).subscribe({
           next: (response) => {
             this.productFormModel = response;
+            console.log(this.productFormModel);
             this.bindModelValueToForm();
           },
           error: (response) => {
@@ -239,6 +242,8 @@ export class ProductFormComponent implements OnInit {
     this.productFormModel.width = this.productForm.controls["width"].value;
     this.productFormModel.height = this.productForm.controls["height"].value;
     this.productFormModel.weight = this.productForm.controls["weight"].value;
+    this.productFormModel.createdTime = this.productForm.controls["createdTime"].value;
+    this.productFormModel.updatedTime = this.productForm.controls["updatedTime"].value;
   }
   
 
@@ -365,6 +370,8 @@ export class ProductFormComponent implements OnInit {
     this.productForm.controls["width"].patchValue(this.productFormModel.width);
     this.productForm.controls["height"].patchValue(this.productFormModel.height);
     this.productForm.controls["weight"].patchValue(this.productFormModel.weight);
+    this.productForm.controls["createdTime"].patchValue(this.productFormModel.createdTime)
+    this.productForm.controls["updatedTime"].patchValue(this.productFormModel.updatedTime)
     console.log(this.productFormModel.extraImages);
   }
 

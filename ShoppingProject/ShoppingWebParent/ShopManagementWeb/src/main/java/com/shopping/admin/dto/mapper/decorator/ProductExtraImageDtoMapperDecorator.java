@@ -15,13 +15,13 @@ public abstract class ProductExtraImageDtoMapperDecorator implements ProductExtr
     @Override
     public ProductImage productExtraImageDtoToProductImage(ProductExtraImageDto productExtraImageDto) {
         ProductImage productImage = productExtraImageDtoMapper.productExtraImageDtoToProductImage(productExtraImageDto);
-//        Product product = new Product();
-//        if(productExtraImageDto.getProductId() != null) {
-//            product.setId(productExtraImageDto.getProductId());
-//            productImage.setProduct(product);
-//        } else {
-//            productImage.setProduct(null);
-//        }
+        Product product = new Product();
+        if(productExtraImageDto.getProductId() != null) {
+            product.setId(productExtraImageDto.getProductId());
+            productImage.setProduct(product);
+        } else {
+            productImage.setProduct(null);
+        }
         return productImage;
     }
 }
