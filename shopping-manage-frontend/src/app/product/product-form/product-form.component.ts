@@ -10,6 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ProductImage } from 'src/app/model/product-image.model';
 import { ProductDetail } from 'src/app/model/product-detail.model';
 import { CdkDragStart, CdkDragMove, CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NotifyModalComponent } from 'src/app/modal/notify-modal/notify-modal.component';
 
 
 @Component({
@@ -45,6 +47,7 @@ export class ProductFormComponent implements OnInit {
     private productService : ProductService,
     private activatedRoute : ActivatedRoute,
     private router : Router,
+    private modalService: NgbModal,
   ) { }
 
   ngOnInit(): void {
@@ -186,7 +189,17 @@ export class ProductFormComponent implements OnInit {
     console.log(this.productFormModel);
     
     this.productService.saveProduct(this.productFormModel, this.mainImageFile, this.extraImageFileList).subscribe(
-      (response : any) => console.log(response)
+      (response : any) => {
+        console.log(response);
+        const modalRefNotify = this.modalService.open(NotifyModalComponent);
+        modalRefNotify.componentInstance.message = "This product has been created/updated successfully!"
+        this.router.navigate(["/products"]);
+      },
+      (error) => {
+        console.error(error);
+        const modalRefNotify = this.modalService.open(NotifyModalComponent);
+        modalRefNotify.componentInstance.message = "Error when creating/updating product!";
+      }
     )
   }
 
